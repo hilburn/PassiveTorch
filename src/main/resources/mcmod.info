@@ -1,0 +1,16 @@
+[
+    {
+      "modid": "PassiveTorch",
+      "name": "Passive Torch",
+      "description": "",
+      "version": "${version}",
+      "mcversion": "${mcversion}",
+      "url": "",
+      "updateUrl": "",
+      "authors": ["hilburn"],
+      "credits": "Authored by hilburn",
+      "logoFile": "",
+      "screenshots": [],
+      "dependencies": []
+    }
+]
