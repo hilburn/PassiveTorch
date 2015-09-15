@@ -29,7 +29,7 @@ public class ServerEventHandler
     {
         if (event.getResult() != Event.Result.ALLOW)
         {
-            if (((event.entityLiving instanceof EntitySlime && !event.entityLiving.isImmuneToFire()) || !(event.entityLiving instanceof IMob)) && isInRangeOfTorch(event.entity))
+            if ((!(event.entityLiving instanceof IMob) || EntitySlime.class.equals(event.entityLiving.getClass())) && isInRangeOfTorch(event.entity))
             {
                 event.setResult(Event.Result.DENY);
             }
